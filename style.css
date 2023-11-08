@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color:#607744;
+  color:#ffffff;
+  font-family: Helvetica;
+}
+
+/* ---------- Horizontal Navigation Bar ---------*/
+.toc {
+  display: flex;
+  position: sticky;
+  align-items: center; 
+  justify-content: left; 
+  top: 0px;
+}
+
+.toc-list { 
+  width: 50%; 
+  display: flex; 
+} 
+
+.toc-list li { 
+  list-style: none; /*gets rid of bullet point*/
+  float: left;
+} 
+
+.toc-list li a { 
+  display: block;
+  padding: 14px 16px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none; /*gets rid of underline*/
+} 
+
+.toc-list li a:hover:not(.active) { 
+  background-color: #A9C46B; 
+} 
+
+.active {
+  background-color: #D0A052;
+}
+
+.background { 
+  background: #1E2F23;
+  background-size: cover; 
+} 
+
+/* ----------------------------------- */
+h1 {
+  padding: 32px 16px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 50px;
+  text-transform: uppercase;
+}
