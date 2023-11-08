@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+/*Everything in the body section of the page will have this formatting unless it is overrriden*/
 body {
   background-color: #5E654C;
   color:#FEFAE0;
@@ -10,47 +11,56 @@ body {
 }
 
 /* ---------- Horizontal Navigation Bar ---------*/
+
+/*formatting for the toc as a whole (mostly the horizontal bar itself*/
 .toc {
   display: flex;
-  position: sticky;
+  position: sticky; /*will show up even when scrolling dowm*/
   align-items: center; 
-  justify-content: left; 
+  justify-content: left; /*all the list items will be alligned from left to right*/
   top: 0px;
 }
 
+/*formating the list for the toc*/
 .toc-list { 
   width: 50%; 
   display: flex; 
 } 
 
+/*formats each list index for the toc-list class (list elements for ul that aren't part of the toc class will not have this formatting)*/
 .toc-list li { 
-  list-style: none; /*gets rid of bullet point*/
-  float: left;
+  list-style: none; /*gets rid of bullet points, otherwise ul elements have them*/
+  float: left; 
 } 
 
+/*formats the links contained within each list index for the toc-list class*/
 .toc-list li a { 
-  display: block;
-  padding: 14px 16px;
+  display: block; /*basically puts each element in its own block */
+  padding: 14px 16px; /*block padding so the text isn't smushed together */
   color: #FEFAE0;
-  text-align: center;
+  text-align: center; /*text shows up in the center of each block */
   text-transform: uppercase;
-  text-decoration: none; /*gets rid of underline*/
+  text-decoration: none; /*gets rid of underline, */
 } 
 
+/*when the mouse cursur hovers over a link block, will change color*/
 .toc-list li a:hover:not(.active) { 
   background-color: #A9C46B; 
 } 
 
+/*whatever page the user is currently on will be a different color*/
 .active {
   background-color: #D0A052;
 }
 
+/*general background specifics, used to set the color of the toc bar to dark green*/
 .background { 
   background: #1E2F23;
   background-size: cover; 
 } 
 
-/* ----------------------------------- */
+/* --------------Text Formatting--------------------- */
+/*Title text formatting */
 h1 {
   padding: 32px 16px;
   text-align: center;
