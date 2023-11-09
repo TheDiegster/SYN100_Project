@@ -15,10 +15,12 @@ body {
 /*formatting for the toc as a whole (mostly the horizontal bar itself*/
 .toc {
   display: flex;
-  position: sticky; /*will show up even when scrolling dowm*/
+  position: sticky; 
   align-items: center; 
-  justify-content: left; /*all the list items will be alligned from left to right*/
+  justify-content: left; 
   top: 0px;
+  background: #1E2F23;
+  background-size: cover; 
 }
 
 /*formating the list for the toc*/
@@ -29,18 +31,18 @@ body {
 
 /*formats each list index for the toc-list class (list elements for ul that aren't part of the toc class will not have this formatting)*/
 .toc-list li { 
-  list-style: none; /*gets rid of bullet points, otherwise ul elements have them*/
+  list-style: none;
   float: left; 
 } 
 
 /*formats the links contained within each list index for the toc-list class*/
 .toc-list li a { 
-  display: block; /*basically puts each element in its own block */
-  padding: 14px 16px; /*block padding so the text isn't smushed together */
+  display: block;
+  padding: 14px 16px;
   color: #FEFAE0;
-  text-align: center; /*text shows up in the center of each block */
+  text-align: center;
   text-transform: uppercase;
-  text-decoration: none; /*gets rid of underline, */
+  text-decoration: none; 
 } 
 
 /*when the mouse cursur hovers over a link block, will change color*/
@@ -53,18 +55,41 @@ body {
   background-color: #D0A052;
 }
 
-/*general background specifics, used to set the color of the toc bar to dark green*/
-.background { 
-  background: #1E2F23;
-  background-size: cover; 
-} 
+/* --------------Main Page--------------------- */
+/*the image in the background of the home page*/
+.homeTitle {
+  background-image: url(./Images/some-dayz-pixel-art-i-made-for-my-twitch-v0-9syb4scc1owa1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 300px 50px;
+}
 
-/* --------------Text Formatting--------------------- */
 /*Title text formatting */
 h1 {
-  padding: 32px 16px;
   text-align: center;
   font-weight: bolder;
   font-size: 50px;
   text-transform: uppercase;
+}
+
+/*the short blurb about the game*/
+.quote {
+  text-align: center;
+  color:#5E654C;
+  font-style: italic;
+  font-size: 20px;
+  padding: 130px 50px;
+  background-color:#FEFAE0;
+}
+
+/*button to go to the storyboard page*/
+.button {
+  text-align: center;
+  margin: auto;
+  text-decoration: none; 
+  color:#FEFAE0;
+  background-color:#1E2F23;
+  font-size: 20px;
+  padding: 20px 25px;
 }
