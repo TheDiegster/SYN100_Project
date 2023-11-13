@@ -21,6 +21,7 @@ body {
   top: 0px;
   background: #1E2F23;
   background-size: cover; 
+  font-family: 'Trebuchet MS';
 }
 
 /*formating the list for the toc*/
