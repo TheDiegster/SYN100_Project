@@ -15,7 +15,7 @@ body {
 /*formatting for the toc as a whole (mostly the horizontal bar itself*/
 .toc {
   display: flex;
-  position: sticky; 
+  position: relative; 
   align-items: center; 
   justify-content: left; 
   top: 0px;
@@ -55,25 +55,17 @@ body {
   background-color: #D0A052;
 }
 
-/* --------------Main Page--------------------- */
-/*the image in the background of the home page*/
-.homeTitle {
-  background-image: url(./Images/some-dayz-pixel-art-i-made-for-my-twitch-v0-9syb4scc1owa1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 300px 50px;
-}
-
+/* --------------Text--------------------- */
 /*Title text formatting */
 h1 {
   text-align: center;
   font-weight: bolder;
   font-size: 50px;
   text-transform: uppercase;
+  padding: 70px;
 }
 
-/*the short blurb about the game*/
+/*quotes n fancy stuff*/
 .quote {
   text-align: center;
   color:#5E654C;
@@ -83,7 +75,7 @@ h1 {
   background-color:#FEFAE0;
 }
 
-/*button to go to the storyboard page*/
+/*buttons to go from page to page*/
 .button {
   text-align: center;
   margin: auto;
@@ -92,4 +84,8 @@ h1 {
   background-color:#1E2F23;
   font-size: 20px;
   padding: 20px 25px;
+}
+
+.button:hover {
+  background-color:#5E654C;
 }

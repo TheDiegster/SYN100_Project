@@ -5,17 +5,55 @@
         <title>OST</title>
         <!-- update file path to wherever file is-->
         <link rel="stylesheet" href="style.css">
+
+        <style>
+            table {
+                left: 0.5%;
+                width: 99%;
+                margin: auto;
+                position: static;
+            }
+
+            tr {
+                margin: 5px;
+            }
+            
+            td {
+                width: 50%;
+                height: 400px;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            td:hover {
+                filter:brightness(150%);
+            }
+
+            audio {
+                margin: 0 auto; 
+                display: block;
+                opacity: 75%;
+            }
+
+            audio:hover {
+                opacity: 100%;
+            }
+
+        </style>
     </head>
-    
+
     <!--will be shown on page-->
     <body>
         <!-- navigation-->
-        <nav class = "toc background">
+        <nav class = "toc background" z index = 1>
             <ul class = "toc-list">
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="Storyboard.html">Storyboard</a></li>
-                <li><a class="active" href="#OST">OST</a></li>
-                <li><a href="etc.html">etc</a></li>
+                <li><a href = "Home.html">Home</a></li>
+                <li><a href = "Storyboard.html"> Storyboard</a></li>
+                <li><a href = "Gameplay.html"> Gameplay</a></li>
+                <li><a href = "Narrative.html"> Narrative</a></li>
+                <li><a class = "active" href = "OST.html">OST</a></li>
+                <li><a href = "Concept.html">Concept</a></li>
+                <li><a href = "Credit.html">Credit</a></li>
             </ul>
         </nav>
 
@@ -26,9 +64,35 @@
 
         <!---Main content-->
         <main>
-            <figure>
-                <figcaption></figcaption:>
-            </figure>
+            <table>
+                <tbody>
+                    <tr>
+                        <td style="background-image:url(./Images/image\ fodder\ -\ spring.png);">
+                            <audio src = "./Audio/audio fodder 1.mp3" type = "audio/mpeg" controls>
+                                Your browser does not support this audio.
+                            </audio>
+                        </td>
+                        <td style="background-image:url(./Images/image\ fodder\ -\ summer.jpg);">
+                            <audio src = "" type = "audio/mpeg" controls>
+                                Your browser does not support this audio.
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class = "column" style = "background-image:url(./Images/image\ fodder\ -\ fall.png);">
+                            <audio src = "" type = "audio/mpeg" controls>
+                                Your browser does not support this audio.
+                            </audio>
+                        </td>
+                        <td style = "background-image:url(./Images/image\ fodder\ -\ winter.gif);">
+                            <audio src = "" type = "audio/mpeg" controls>
+                                Your browser does not support this audio.
+                            </audio>
+                        </td>
+                    </tr>
+                    <!-- expandable-->
+                </tbody>
+            </table>
         </main>
     </body>
 </html>

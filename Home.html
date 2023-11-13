@@ -5,6 +5,24 @@
         <title>Home</title>
         <!-- will work as long as the css file is in the same location as this one, update the file path otherwise-->
         <link rel="stylesheet" href="style.css">
+
+        <!--CSS code for stuff specific to this page, will probably not be used anywhere else-->
+        <style> 
+        /*the image in the background of the home page*/
+            .banner {
+            background-image: url(./Images/image\ fodder\ -\ title.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            padding: 300px 50px;
+            }
+
+            .titleText {
+                font-size: 80px;
+                padding: 80px 80px;
+                background-color: #00000070;
+            }
+        </style>
     </head>
     
     <!--the body is where the actual page content goes, everything here will show up on the site in one way or another -->
@@ -13,7 +31,7 @@
         <!-- When updating the TOC, set the a class to active for whichever page you're on (for ex: for the home page, the a has a class defined for active)-->
         <nav class = "toc background">
             <ul class = "toc-list">
-                <li><a class = "active" href = "#home">Home</a></li>
+                <li><a class = "active" href = "Home.html">Home</a></li>
                 <li><a href = "Storyboard.html"> Storyboard</a></li>
                 <li><a href = "Gameplay.html"> Gameplay</a></li>
                 <li><a href = "Narrative.html"> Narrative</a></li>
@@ -24,8 +42,8 @@
         </nav>
 
         <!--header = page title-->
-        <header class = "homeTitle">
-            <h1>Test HTML file: Home Page</h1>
+        <header class = "banner">
+            <h1 class = "titleText">Test HTML file: Home Page</h1>
         </header>
 
         <!---main = main content, where all the images n paragraphs n stuff goes-->
