@@ -66,6 +66,10 @@ h1 {
   padding: 70px;
 }
 
+p {
+  padding: 20px 50px;
+}
+
 /*quotes n fancy stuff*/
 .quote {
   text-align: center;
