@@ -7,8 +7,8 @@
 
 /*Everything in the body section of the page will have this formatting unless it is overrriden*/
 body {
-  background-image: linear-gradient(#747c5d,#ACB27C);
-  color:#FEFAE0;
+  background-image: linear-gradient(#FEFAE0,#fffff1);
+  color:#253a2b;
   font-family: Helvetica;
 }
 
@@ -21,7 +21,7 @@ body {
   align-items: center; 
   justify-content: left; 
   top: 0px;
-  background: #1E2F23;
+  background: #a3a974;
   background-size: cover; 
   font-family: 'Trebuchet MS';
 }
@@ -42,7 +42,7 @@ body {
 .toc-list li a { 
   display: block;
   padding: 14px 16px;
-  color: #FEFAE0;
+  color: #1E2F23;
   text-align: center;
   font-weight: 800;
   letter-spacing: 2px;
@@ -52,24 +52,26 @@ body {
 
 /*when the mouse cursur hovers over a link block, will change color*/
 .toc-list li a:hover:not(.active) { 
-  background-color: #A9C46B; 
+  background-color: #c5e184; 
 } 
 
 /*whatever page the user is currently on will be a different color*/
 .active {
-  background-color: #D0A052;
+  background-color: #edbb6a;
 }
 
 /* --------------Text--------------------- */
 /*Title text formatting */
 h1 {
   text-align: center;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 90px;
+  /*font-family: "Marker Felt";
+   text-shadow: 5px 5px #00000050; */
   letter-spacing: 15px;
   text-transform: uppercase;
   padding: 110px 100px 85px;
-  background-image: url("./Images/leaves_top.png");
+  background-image: url("./Images/lightleaves_top.png");
   background-size: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -115,13 +117,14 @@ p {
 
 /* ----------------------- footer ---------------------*/
 footer {
-  background-image: url("./Images/leaves_bottom.png");
+  background-image: url("./Images/lightleaves_bottom.png");
   background-size: 100%;
   background-repeat: no-repeat;
   margin-top: 10px;
   padding-top: 150px;
+  
 }
 
 .footer-bar {
-  background-color:#1E2F23;
+  background-color:#ACB27C;
 }
