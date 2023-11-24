@@ -157,4 +157,9 @@ footer img {
   bottom: 0;
 }
 
-
+/* Gampeplay Description text */
+.gameplayDescriptions {
+  font-size: 30px; /* Adjust the size as needed */
+  font-weight: bold;
+  /* You can add other styles such as font-family, color, etc. */
+}
