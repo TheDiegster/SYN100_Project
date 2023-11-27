@@ -96,8 +96,10 @@ p {
   text-align: center;
   color:#FEFAE0;
   font-style: italic;
-  font-size: 20px;
-  padding: 130px 50px;
+  font-weight: 20;
+  font-size: 30px;
+  line-height: 60px;
+  padding: 150px 120px 0px;
 }
 
 /*buttons to go from page to page*/
