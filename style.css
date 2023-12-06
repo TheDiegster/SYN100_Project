@@ -166,3 +166,8 @@ footer img {
   font-weight: bold;
   /* You can add other styles such as font-family, color, etc. */
 }
+.full-width-table {
+  width: 100%;
+  table-layout: fixed; /* Ensures even distribution of cell widths */
+}
+
