@@ -162,8 +162,8 @@ footer img {
 /* Gampeplay Description text */
 .BigText {
   text-align: center;
-  font-size: 30px; /* Adjust the size as needed */
-  font-weight: bold;
+  font-size: 25px; /* Adjust the size as needed */
+  font-weight: 400;
   /* You can add other styles such as font-family, color, etc. */
 }
 .full-width-table {
